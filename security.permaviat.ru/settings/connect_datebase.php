@@ -1,5 +1,5 @@
 <?php
-	$mysqli = new mysqli('10.111.20.114', 'root', 'Asdfgh123*', 'security');
+	$mysqli = new mysqli('localhost', 'root', '', 'securityImages');
 	
 	function getClientIP() {
         if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
